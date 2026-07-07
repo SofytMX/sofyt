@@ -1,0 +1,12 @@
+# Sofyt
+
+> Sofyt is a small software studio building measurement instruments for engineers, quants, and AI agents. The house rule: the tools tell you the truth, calibrated on ourselves first.
+
+## Products
+
+- [PaperClob](https://paperclob.com): A paper CLOB wire-compatible with Polymarket, plus a simulator that grades trading bots against the real recorded tape — the edge a backtest promises vs. the edge reality would actually fill. Built for AI agents. Machine-readable docs: https://paperclob.com/llms.txt
+- [LLCrawler](https://llcrawler.com): An LLM-visibility auditor. Measures how visible and legible a site is to AI crawlers and models, and outputs the fixes (llms.txt, structured data, AI-readiness) as paste-ready artifacts.
+
+## Contact
+
+- Email: support@sofyt.mx
