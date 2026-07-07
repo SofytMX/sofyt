@@ -10,3 +10,8 @@
 ## Contact
 
 - Email: support@sofyt.mx
+
+## For AI agents
+- MCP server: `pip install paperclob-mcp` (13 tools for the honest simulator)
+- Claude Code skill: `npx clawhub@latest install polymarket-honest-sim`
+- Full API contract, zero install: https://paperclob.com/llms-full.txt

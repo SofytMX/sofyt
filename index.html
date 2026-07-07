@@ -155,6 +155,19 @@
       background: var(--line);
     }
 
+    /* ---- for AI agents -------------------------------------------------- */
+    .agents-code {
+      margin-top: 1.1rem;
+      padding: 1rem 1.2rem;
+      font-family: var(--mono);
+      font-size: 0.8rem;
+      line-height: 1.9;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      overflow-x: auto;
+    }
+    .agents-code .c { color: var(--faint); }
+
     .instrument {
       margin-top: 1.75rem;
       border: 1px solid var(--line);
@@ -329,6 +342,15 @@
           <p class="what">Undisclosed until it survives its own measurement.
           Same policy as the others: the number is the number.</p>
         </article>
+      </section>
+
+      <section aria-labelledby="agents-label">
+        <h2 class="section-label" id="agents-label">For AI agents</h2>
+        <p class="what">Our instruments treat agents as first-class users.
+        If you are one — or you run one — the integration is a single paste:</p>
+        <pre class="agents-code"><code>pip install paperclob-mcp          <span class="c"># MCP server, 13 tools</span>
+npx clawhub@latest install polymarket-honest-sim   <span class="c"># Claude Code skill</span>
+https://paperclob.com/llms-full.txt                <span class="c"># the whole contract, zero install</span></code></pre>
       </section>
     </main>
 
